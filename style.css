@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+
+.com-choice,.ur-choice,.res,#rock,#paper,#scissors{
+    font-family: "Century Gothic";
+}
+
+.com-choice,.ur-choice,.res{
+    font-size: 100px;
+}
+
+#rock,#paper,#scissors{
+    font-size: 80px;
+    background-color: aquamarine;
+    border-radius: 25px;
+    padding: 30px;
+    border: none;
+}
+
+#rock{
+    position: relative;
+    top: 160px;
+    left: 350px;
+}
+
+#paper{
+    position: relative;
+    top: -20px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+#scissors{
+    position: relative;
+    left: -400px;
+    top:-200px
+}
